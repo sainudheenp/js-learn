@@ -18,9 +18,10 @@ let arr  = ["Zain","Siva","Joyal"]
     console.log("hello " + `${name}` + `\nindex : ${i}`)
  });
 
-ul = document.getElementsByTagName('ul')
+ul = document.getElementById("ul")
 console.log(ul)
-ul.innerHTML =+ `<h1>Hello</h1>` ;
+html =`<li> Hello </li>` ;
+ul.innerHTML =+ html ;
 
 
 
