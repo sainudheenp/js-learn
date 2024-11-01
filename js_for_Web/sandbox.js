@@ -1,31 +1,21 @@
-function Hello (){
-    console.log("Hello World!")
+let user = {
+    name: "jude",
+    age: 30,
+    email: "jude@gmail.com",
+    projects: ["crud", "toDo", "Xlien"],
+    hello : function () {
+        console.log("hello");
+    } ,
+    theses:this.email  
 }
-Hello()
-console.log("hello")
 
-let arrow = params => ` ${params} Vonnue` ;
-console.log(arrow("Hello"))
+console.log(user)
+console.log(user.name)
+console.log(user["name"])
 
-let Company_name = "vonnue"
-console.log(Company_name.toUpperCase())
-c = Company_name.toUpperCase()
-console.log(c)
-
-let arr  = ["Zain","Siva","Joyal"]
-
- arr.forEach((name , i)=> {
-    console.log("hello " + `${name}` + `\nindex : ${i}`)
- });
-
-ul = document.getElementById("ul")
-console.log(ul)
-html =`<li> Hello </li>` ;
-ul.innerHTML =+ html ;
-
-
-
-
-
-//  callback ?
- 
+//update name
+user["name"] = "Don"
+console.log(user.name)
+user.hello();
+console.log(typeof user["name"])
+console.log(theses)
