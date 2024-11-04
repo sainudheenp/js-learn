@@ -17,6 +17,30 @@ let id = 'this' + ' this'
 id += " this"
 console.log(id)
 
+
+
+let namee = "vonnue"
+console.log("last letter:", namee[namee.length - 1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // pass two valaues as params & find sum 
 function sum(a, b) {
     return console.log(a + b)
@@ -24,9 +48,35 @@ function sum(a, b) {
 sum(3, 4)
 
 function arrayL(a) {
-    a.forEach(i=>{
-        console.log("hey")
-    })
+    // a.forEach(i=>{
+
+    // })
+    console.log(...a)
+    console.log(`largest  :`, Math.max(...a))
+    console.log('smallest :', Math.min(...a))
 
 }
-arrayL([3,5,6,5])
+arrayL([3, 5, 6, 5])
+
+function largeUsingloop(a) {
+
+    let largest = 0;
+    let smallest = 0;
+
+    for (let i = 0; i < a.length; i++) {
+
+    }
+
+}
+
+
+function worldBlanks(myNoun, MyAdjective, myVerb, myAdverb) {
+    var result = `The ${MyAdjective} ${myNoun} ${myVerb} to the store ${myAdverb}. `
+    return result;
+}
+console.log(worldBlanks("dog","big","ran","quickly"))
+
+
+
+let ourArray= ["john",32]
+let myArray=["sin",44]
