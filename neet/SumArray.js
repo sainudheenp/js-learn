@@ -8,7 +8,7 @@
 //     sum = arr[i] + sum;
 //   }
 
-//   console.log(sum);
+  console.log("sum");
 // };
 
 // let sampleArray = [1, 2, 3];
