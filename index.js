@@ -88,7 +88,21 @@ for(let i=0;i< marks.length;i++){
 
 }
 
+// switch
 
+let grade ="B"
+
+switch(grade){
+    case "A":
+        console.log("A grade")
+    case "B":
+            console.log("B grade")
+            break
+    case "C":
+         console.log("A grade")
+    default :
+        console.log("grade error ")
+}
 
 
 
