@@ -27,11 +27,11 @@ console.log("last letter:", namee[namee.length - 1])
 // for loops
 
 body = document.querySelector("body");
-let i =0;
+let i = 0;
 const forArray = ['s', "sf", "k"]
-for ( i = 0; i < forArray.length; i++) {
-console.log(forArray[i]);
-body.innerHTML+=`<div>${forArray[i]}</div>`
+for (i = 0; i < forArray.length; i++) {
+    console.log(forArray[i]);
+    body.innerHTML += `<div>${forArray[i]}</div>`
 }
 
 
@@ -39,47 +39,47 @@ body.innerHTML+=`<div>${forArray[i]}</div>`
 // while
 // let i =0;
 body = document.querySelector('body')
-while(i < forArray.length){
+while (i < forArray.length) {
     console.log("Hi am while loop")
     body.innerHTML += `<div>${forArray[i]}</div>`
     i++;
 }
 
 // do while 
-do{
+do {
     console.log("hi am do while")
 
 }
-while(0>1)
+while (0 > 1)
 
 
 const password = "19244dd4@"
-if (password.length >=8 && password.includes('@')){
+if (password.length >= 8 && password.includes('@')) {
     console.log("Strong password!!")
 }
-else{
+else {
     console.log("pd Not secure")
 }
 
 
-if( false){
+if (false) {
     console.log("false")
 }
-else{
+else {
     console.log("true")
 }
 
 
 // student mark
-let marks =[90,39,100,0,33]
-for(let i=0;i< marks.length;i++){
-    console.log("Your Score: ",marks[i])
-    if(marks[i]===0){
+let marks = [90, 39, 100, 0, 33]
+for (let i = 0; i < marks.length; i++) {
+    console.log("Your Score: ", marks[i])
+    if (marks[i] === 0) {
         continue;//exit current iteration
 
     }
 
-    if(marks[i]===100){
+    if (marks[i] === 100) {
         console.log("congrats, you got top score! ");
         break;
     }
@@ -90,17 +90,17 @@ for(let i=0;i< marks.length;i++){
 
 // switch
 
-let grade ="B"
+let grade = "B"
 
-switch(grade){
+switch (grade) {
     case "A":
         console.log("A grade")
     case "B":
-            console.log("B grade")
-            break
+        console.log("B grade")
+        break
     case "C":
-         console.log("A grade")
-    default :
+        console.log("A grade")
+    default:
         console.log("grade error ")
 }
 
@@ -148,3 +148,43 @@ console.log(worldBlanks("dog", "big", "ran", "quickly"))
 
 let ourArray = ["john", 32]
 let myArray = ["sin", 44]
+
+function addthree(val) {
+    return console.log(val += 3)
+
+}
+addthree(4)
+
+
+let strArra = [2, 3, 5, 6]
+console.log("stringify:", JSON.stringify(strArra))
+
+
+
+
+var names = ["lol", "sha", "kilo", "sjd","lool","tot","lnit","eight"]
+function golfScore(par, stroks) {
+    if (stroks == 1) {
+        return names[0]
+    }
+    else if (stroks <= par - 2) {
+        return names[1]
+    }
+    else if (stroks == par - 1) {
+        return names[2]
+    }
+    else if (stroks == par) {
+        return names[3]
+    }
+    else if (stroks == par + 1) {
+        return names[4]
+    }
+    else if (stroks == par  +2){
+        return names[5]
+    }
+    else if(stroks == par +3){
+        return names[6]
+    }
+    return "Change Me!"
+}
+console.log(golfScore(5,4))
