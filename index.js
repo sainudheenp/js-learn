@@ -162,7 +162,7 @@ console.log("stringify:", JSON.stringify(strArra))
 
 
 
-var names = ["lol", "sha", "kilo", "sjd","lool","tot","lnit","eight"]
+var names = ["lol", "sha", "kilo", "sjd", "lool", "tot", "lnit", "eight"]
 function golfScore(par, stroks) {
     if (stroks == 1) {
         return names[0]
@@ -179,42 +179,42 @@ function golfScore(par, stroks) {
     else if (stroks == par + 1) {
         return names[4]
     }
-    else if (stroks == par  +2){
+    else if (stroks == par + 2) {
         return names[5]
     }
-    else if(stroks == par +3){
+    else if (stroks == par + 3) {
         return names[6]
     }
     return "Change Me!"
 }
-console.log(golfScore(5,4))
+console.log(golfScore(5, 4))
 
-let nesArray =[["hi",[3,4]],["hello",[5,3]]]
+let nesArray = [["hi", [3, 4]], ["hello", [5, 3]]]
 
 
 // 42.51
 
-let modArray=[3,5,6]
-modArray[0]=4;
-console.log('Modify array:',...modArray)
+let modArray = [3, 5, 6]
+modArray[0] = 4;
+console.log('Modify array:', ...modArray)
 
 // multiple array
-let mulArray = [[2,4],[5,6],[8,3]]
-console.log( "Multiple Array",mulArray[0][1])
+let mulArray = [[2, 4], [5, 6], [8, 3]]
+console.log("Multiple Array", mulArray[0][1])
 
 // array pop
 
-popArray=[3,5,5,2,7]
-console.log("Pop",...popArray)
-console.log("Popd",popArray.pop())
-console.log("Popd",popArray.pop())
+popArray = [3, 5, 5, 2, 7]
+console.log("Pop", ...popArray)
+console.log("Popd", popArray.pop())
+console.log("Popd", popArray.pop())
 
 // array shift  
-console.log("shift",popArray.shift())
+console.log("shift", popArray.shift())
 
 // push
 popArray.push(99)
-console.log("push 99 :",...popArray)
+console.log("push 99 :", ...popArray)
 console.log
 
 // unshift
@@ -222,4 +222,57 @@ popArray.unshift(4000)
 console.log("unshifted :", ...popArray)
 
 
- 
+function testEqual(a, b) {
+    if (a == b) {
+        return console.log("true!")
+    }
+    else {
+        return console.log("false!")
+    }
+}
+
+testEqual(4, 9)
+testEqual(9, 9)
+
+
+console.log(9 == "9" ? "true ==" : "false ==")
+console.log(9 === "9" ? "true ===" : "false ===")
+
+function switch_test(f) {
+    switch(f){
+        case 1:
+            console.log("one");
+            break
+        case 2:
+            console.log("two") 
+        default :
+            console.log("switch test err")
+    }
+}
+switch_test(1)
+
+
+let dog = {
+    "name":"wuieee",
+    "age" : 3 
+}
+
+console.log(dog.name)
+// delete
+delete dog.name
+console.log("dog name",dog.name)
+
+var myobj ={
+    git:"pn",
+    pet:"kitten",
+    bed:"lsfds"
+}
+// if(myobj.hasOwnProperty("git") ){
+//     return console.log("property Found")
+// }
+// else{
+//     return console.log("not Found")
+
+// }
+
+
