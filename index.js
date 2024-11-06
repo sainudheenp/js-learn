@@ -209,7 +209,7 @@ console.log("Pop", ...popArray)
 console.log("Popd", popArray.pop())
 console.log("Popd", popArray.pop())
 
-// array shift  
+// array shift
 console.log("shift", popArray.shift())
 
 // push
@@ -244,7 +244,7 @@ function switch_test(f) {
             console.log("one");
             break
         case 2:
-            console.log("two") 
+            console.log("two")
         default :
             console.log("switch test err")
     }
@@ -254,7 +254,7 @@ switch_test(1)
 
 let dog = {
     "name":"wuieee",
-    "age" : 3 
+    "age" : 3
 }
 
 console.log(dog.name)
@@ -274,5 +274,20 @@ var myobj ={
 //     return console.log("not Found")
 
 // }
+
+
+// complex object
+
+let complexObj= {
+    Brand:"MSI",
+    Model:"DF112",
+    Ports:{
+        usb:3,
+        hdmi:1,
+        rj45:1
+    }
+}
+console.log(complexObj.Ports.hdmi)
+console.log(complexObj.Brand.length)
 
 
