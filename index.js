@@ -189,4 +189,37 @@ function golfScore(par, stroks) {
 }
 console.log(golfScore(5,4))
 
-// WAKATIME 
+let nesArray =[["hi",[3,4]],["hello",[5,3]]]
+
+
+// 42.51
+
+let modArray=[3,5,6]
+modArray[0]=4;
+console.log('Modify array:',...modArray)
+
+// multiple array
+let mulArray = [[2,4],[5,6],[8,3]]
+console.log( "Multiple Array",mulArray[0][1])
+
+// array pop
+
+popArray=[3,5,5,2,7]
+console.log("Pop",...popArray)
+console.log("Popd",popArray.pop())
+console.log("Popd",popArray.pop())
+
+// array shift  
+console.log("shift",popArray.shift())
+
+// push
+popArray.push(99)
+console.log("push 99 :",...popArray)
+console.log
+
+// unshift
+popArray.unshift(4000)
+console.log("unshifted :", ...popArray)
+
+
+ 
