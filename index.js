@@ -11,7 +11,7 @@ let email = "vonnue@gmail.com"
 let domain = email.slice(email.indexOf("@") + 1)
 console.log(domain)
 // var url = `http://www.google.com/`
-// window1 = window.open(url) 
+// window1 = window.open(url)
 
 let id = 'this' + ' this'
 id += " this"
@@ -45,7 +45,7 @@ while (i < forArray.length) {
     i++;
 }
 
-// do while 
+// do while
 do {
     console.log("hi am do while")
 
@@ -109,7 +109,7 @@ switch (grade) {
 
 
 
-// pass two valaues as params & find sum 
+// pass two valaues as params & find sum
 function sum(a, b) {
     return console.log(a + b)
 }
