@@ -392,3 +392,18 @@ console.log(CheckSigh(4))
 console.log(CheckSigh(-4))
 
 
+// forcast 
+
+const Local_Forcast ={
+    today:{min:73,max:99},
+    tomorrow:{min:33,max:77}
+};
+
+
+function getMax(forecast){
+    "use strict";
+
+    const {tomorrow : {max : MaxTomorrow}} = forecast;
+    return MaxTomorrow ;
+}
+console.log(getMax(Local_Forcast))
