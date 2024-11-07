@@ -239,13 +239,13 @@ console.log(9 == "9" ? "true ==" : "false ==")
 console.log(9 === "9" ? "true ===" : "false ===")
 
 function switch_test(f) {
-    switch(f){
+    switch (f) {
         case 1:
             console.log("one");
             break
         case 2:
             console.log("two")
-        default :
+        default:
             console.log("switch test err")
     }
 }
@@ -253,19 +253,19 @@ switch_test(1)
 
 
 let dog = {
-    "name":"wuieee",
-    "age" : 3
+    "name": "wuieee",
+    "age": 3
 }
 
 console.log(dog.name)
 // delete
 delete dog.name
-console.log("dog name",dog.name)
+console.log("dog name", dog.name)
 
-var myobj ={
-    git:"pn",
-    pet:"kitten",
-    bed:"lsfds"
+var myobj = {
+    git: "pn",
+    pet: "kitten",
+    bed: "lsfds"
 }
 // if(myobj.hasOwnProperty("git") ){
 //     return console.log("property Found")
@@ -278,16 +278,117 @@ var myobj ={
 
 // complex object
 
-let complexObj= {
-    Brand:"MSI",
-    Model:"DF112",
-    Ports:{
-        usb:3,
-        hdmi:1,
-        rj45:1
+let complexObj = {
+    Brand: "MSI",
+    Model: "DF112",
+    Ports: {
+        usb: 3,
+        hdmi: 1,
+        rj45: 1
     }
 }
 console.log(complexObj.Ports.hdmi)
 console.log(complexObj.Brand.length)
+
+// while
+let whilearray = []
+i = 0;
+while (i < 5) {
+
+    whilearray.push(i);
+    i++;
+}
+console.log(...whilearray)
+
+whilearray = []
+
+for (i = 0; i < 10; i += 2) {
+    whilearray.push(i);
+    console.log('he')
+}
+console.log(...whilearray)
+
+// contacts
+
+console.log("Contacts Section")
+
+let Contacts = [
+    {
+        "FirstName": "Sam",
+        "lastName": "Altman",
+        "number": 9568,
+        "likes": ["Pizza", "coding", "magic"],
+    },
+    {
+        "FirstName": "Ray",
+        "lastName": "Olse",
+        "number": 6357,
+        "likes": ["Pizza", "coding", "magic"],
+    },
+    {
+        "FirstName": "Luke",
+        "lastName": "Jo",
+        "number": 7257,
+        "likes": ["Pizza", "coding", "magic"],
+    },
+    {
+        "FirstName": "Kir",
+        "lastName": "OK",
+        "number": 26236,
+        "likes": ["Pizza", "coding", "magic"],
+    },
+    {
+        "FirstName": "Lol",
+        "lastName": "ss",
+        "number": 3625,
+        "likes": ["Pizza", "coding", "magic"],
+    },
+    {
+        "FirstName": "Tim",
+        "lastName": "Annan",
+        "number": 324234,
+        "likes": ["Pizza", "coding", "magic"],
+    },
+]
+
+console.log(`Total Number of Contacts : ${Contacts.length}`)
+
+
+function ContLookup(uname, prop) {
+    // console.log(uname)
+    // console.log(prop)
+    for (i = 0; i < Contacts.length; i++) {
+        if (uname == Contacts[i].FirstName) {
+            // console.log(Contacts[i])
+
+            if (Contacts[i].hasOwnProperty(prop) == true) {
+
+                console.log(prop, ":" ,  Contacts[i][prop]);
+                break;
+            }
+            else{
+                console.log("Property Not found!");
+                break;
+            }
+           
+        }
+        else {
+            console.log("User not Found!")
+        }
+    }
+}
+ContLookup("Sam", "FirstName")
+ContLookup('Sam',"lastName")
+ContLookup('Sam',"number")
+
+console.log(parseInt("88"))
+
+
+
+function CheckSigh(num){
+    return num >= 0 ? "Positive" :  "Negative" 
+}
+console.log(CheckSigh(4))
+console.log(CheckSigh(-4))
 
 
