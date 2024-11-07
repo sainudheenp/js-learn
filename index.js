@@ -1,3 +1,5 @@
+// import { capi } from './ex.js';
+
 console.log("hello")
 
 let st = "hey";
@@ -407,3 +409,62 @@ function getMax(forecast){
     return MaxTomorrow ;
 }
 console.log(getMax(Local_Forcast))
+
+const [a,b]= [2,4,5]
+console.log(a)
+console.log(b)
+
+
+
+
+const person = (Name, age,gender)=>{
+    return {
+        name:Name,
+        age:age,
+        gender:gender
+    };
+
+}
+console.log(person("zain",21,"male"));
+
+const personArrow = (namee,age,gender)=>({namee,age,gender})
+
+console.log(personArrow("zain",21,"male"));
+// 
+
+const bicycle ={
+    gear:2,
+    setGear:function(nameee){
+        console.log("hello", nameee)
+    }
+}
+bicycle.setGear("zain")
+
+var spaceShuttil = function (target){
+    this.target = target;
+}
+var zeus = new spaceShuttil("jupiter")
+
+console.log(zeus.target)
+
+
+
+ 
+class spaceShuttle {
+    constructor(target){
+    this.target = target;
+    }
+}
+var zeus = new spaceShuttle("jupiter")
+
+console.log(zeus.target);
+
+
+import ('./ex.js')
+.then(module => {
+    const capi = module.capi;
+    console.log(capi("ggg"));
+})
+
+
+
