@@ -467,4 +467,5 @@ import ('./ex.js')
 })
 
 
-
+let randddon = Math.floor(Math.random() * 7) ;
+console.log("randddon Value: ",randddon)
