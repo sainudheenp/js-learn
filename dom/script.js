@@ -37,3 +37,51 @@ heading.classList.add("added")
 
 // remove item
 h4.remove()
+
+
+
+// parent & child node Travelsal
+
+
+let ul = document.querySelector('ul')
+console.log(ul)
+console.log(ul.parentElement)
+console.log(ul.parentNode)
+
+console.log(ul.childNodes)
+console.log(ul.childElementCount)
+console.log(ul.children)
+console.log(ul.firstElementChild)
+console.log(ul.lastElementChild)
+
+// sibling mode
+
+console.log(ul.nextElementSibling)
+console.log(ul.previousElementSibling)
+
+
+// Dom manipulation
+
+// Event listeneres
+
+
+const buttontwo = document.querySelector('.btn2')
+
+function alertButton(){
+  alert("LOVE GO!")
+}
+
+function changeBg(){
+body.style= "background-color:red;"
+}
+
+
+
+
+buttontwo.addEventListener("click",alertButton)
+
+let buttonthree = document.querySelector(".btn3")
+buttonthree.addEventListener("click",changeBg)
+
+let buttonone = document.querySelector(".btn1")
+buttonone.addEventListener("mouseover",changeBg)
