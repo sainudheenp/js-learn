@@ -466,5 +466,11 @@ import ('./ex.js')
     console.log(capi("ggg"));
 })
 
+// import {capi} from ('./ex')
+// console.log(capi("ggg"));
 
 
+
+
+let randddon = Math.floor(Math.random() * 7) ;
+console.log("randddon Value: ",randddon)
