@@ -71,8 +71,8 @@ function alertButton(){
   alert("LOVE GO!")
 }
 
-function changeBg(){
-body.style= "background-color:red;"
+function changeBg(color){
+body.style.backgroundColor=color;
 }
 
 
@@ -81,7 +81,11 @@ body.style= "background-color:red;"
 buttontwo.addEventListener("click",alertButton)
 
 let buttonthree = document.querySelector(".btn3")
-buttonthree.addEventListener("click",changeBg)
+buttonthree.addEventListener("click",function(){changeBg("red")})
 
 let buttonone = document.querySelector(".btn1")
-buttonone.addEventListener("mouseover",changeBg)
+buttonone.addEventListener("mouseover",()=>{changeBg("green")})
+
+
+// hide and reveal
+document.querySelector('.hidden').addEventListener("click",console.log('window clicked'))
