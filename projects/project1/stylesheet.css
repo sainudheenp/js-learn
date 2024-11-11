@@ -57,11 +57,12 @@ border-radius: 8px;
     text-align: end;
     color: brown;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
 .button-area{
     display: flex;
     justify-content: center;
-    
+
 }
 button{
     background-color: #262626;
