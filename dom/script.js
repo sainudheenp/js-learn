@@ -93,19 +93,55 @@ const hidden = document.querySelector('.hidden')
 hidden.addEventListener("click", () => {
   console.log('hidden clicked');
   chech()
-  })
+})
 let reveal = document.querySelector('.reveal')
 reveal.addEventListener("click", () => {
   console.log('reveal clicked');
   chech()
 })
 
-  // console.log(reveal)
-function chech(){
-  if (hidden.classList.contains('none')){
+// console.log(reveal)
+function chech() {
+  if (hidden.classList.contains('none')) {
     hidden.classList.remove('none')
   }
-  else{
+  else {
     hidden.classList.add('none')
   }
 }
+
+
+// delegation
+
+
+// document.querySelector('#football').addEventListener
+//   (
+//     'click', (e) => {
+//       console.log("football")
+//       const target = e.target;
+//       console.log(target)
+//       target.style.backgroundColor = 'green'
+//     }
+//   )
+
+document.querySelectorAll('.dpli').forEach(li => {
+  li.addEventListener(
+    'click', (e) => {
+      // console.log("li clicked")
+      target = e.target;
+      console.log(e.target.classList);
+      console.log(`${target.innerHTML} is clicked `)
+      console.log( target.style.backgroundColor  )
+      target.style.backgroundColor = 'green'
+    }
+  )
+}
+)
+
+const sports = document.querySelector("#sports")
+let Newsport = document.createElement('li')
+Newsport.innerHTML= 'rugby'
+Newsport.setAttribute('id','rugby')
+Newsport.setAttribute('class','dpli')
+
+sports.appendChild(Newsport)
