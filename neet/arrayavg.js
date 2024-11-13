@@ -3,6 +3,7 @@ function arrayavg(arr){
     arr.forEach(element => {
         sum = sum+ element ;
     });
-    console.log("avg : ",(sum /arr.length))
+
+    console.log("avg : ",(sum / arr.length))
 }
 arrayavg([1,2,3,4,5])

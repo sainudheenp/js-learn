@@ -19,4 +19,4 @@ function maxVal(arr) {
 }
 
 
-maxVal([2, 4, 1,3,5,1,9])
+maxVal([2, 4, 12,3,5,1,9])
