@@ -4,13 +4,13 @@ const addbtn = document.getElementById('add-task')
 const inputTask = document.getElementById('input-task')
 const container = document.getElementById('container')
 
-document.addEventListener("keyup",(e)=>{
-if(e.key==="Enter"){
-l()
-}
+document.addEventListener("keyup", (e) => {
+    if (e.key === "Enter") {
+        l()
+    }
 })
 
-addbtn.addEventListener('click', l=() => {
+addbtn.addEventListener('click', l = () => {
     console.log("created element")
     let taskdiv = document.createElement('div');
     taskdiv.classList.add('task');
@@ -28,11 +28,20 @@ addbtn.addEventListener('click', l=() => {
     deletebutton.classList.add('deleteTask')
     taskdiv.appendChild(deletebutton)
 
-    if(inputTask.value == ""){
+    if (inputTask.value == "") {
         alert('please enter a task')
-    }else{
+    } else {
         container.appendChild(taskdiv)
     }
-inputTask.value = ""
+    inputTask.value = "";
+
+    checkbutton.addEventListener('click',()=>{
+      checkbutton.parentElement.style.textDecoration ="line-through"  
+
+    })
+    deletebutton.addEventListener("click",(e)=>{
+        let target = e.target;
+        target.parentElement.remove()
+    })
 })
 

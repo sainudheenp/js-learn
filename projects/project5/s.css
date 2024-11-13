@@ -76,9 +76,19 @@ input {
     margin-right: 5px;
     font-size: 1.4rem;
 }
+.checkTask:hover{
+    color: black;
+    background-color: orange;
+}
 
 .deleteTask {
    color: red;
    font-size: 1.4rem;
+   border: solid 2px red;
+   font-size: 1.3rem;
 
+}
+.deleteTask:hover{
+    background-color: red;
+    color: white;
 }
