@@ -1,9 +1,12 @@
 // find max value in array
 
 // function maxVal(arr){
-//     console.log(arr.sort()[arr.length-1])
+//     console.log(arr.sort((a,b)=>a-b)[arr.length-1])
 
 // }
+
+
+
 
 function maxVal(arr) {
     let max = 0;

@@ -1,7 +1,9 @@
 body {
     height: 100vh;
     background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*xMuIOwjliGUPjkzukeWKfw.jpeg');
-
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,43 +54,48 @@ input {
     box-shadow: 0 0 3px;
     padding: 5px;
     list-style: none;
-    margin-bottom:5px ;
+    margin-bottom: 5px;
 
     display: flex;
     justify-content: space-between;
 
 
 }
-.task li{
-    flex:4;
+
+.task li {
+    flex: 4;
     padding: 5px;
     font-size: 1.3rem;
     margin: 10px;
 }
-.task button{
+
+.task button {
     flex: 1;
     border-radius: 10px;
     background-color: #fff;
 }
+
 .checkTask {
-    color:orange;
+    color: orange;
     background-color: red;
     margin-right: 5px;
     font-size: 1.4rem;
 }
-.checkTask:hover{
+
+.checkTask:hover {
     color: black;
     background-color: orange;
 }
 
 .deleteTask {
-   color: red;
-   font-size: 1.4rem;
-   border: solid 2px red;
-   font-size: 1.3rem;
+    color: red;
+    font-size: 1.4rem;
+    border: solid 2px red;
+    font-size: 1.3rem;
 
 }
-.deleteTask:hover{
+
+.deleteTask:hover {
     background-color: red;
     color: white;
 }
