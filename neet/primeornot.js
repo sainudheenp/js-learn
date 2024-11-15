@@ -88,31 +88,57 @@
 
 
 // v4
-function isPrime(n) {
+// function isPrime(n) {
 
 
-    if (n == 2 || n == 3) {
-        console.log(`${n} Is a Prime Number`)
+//     if (n == 2 || n == 3) {
+//         console.log(`${n} Is a Prime Number`)
 
-    } else {
+//     } else {
 
-        if (n % 2 == 0 || n % 3 == 0) {
-            return console.log(`${n} Not a Prime Number`)
-        } else {
-            return console.log(`${n} Is a Prime Number`)
+//         if (n % 2 == 0 || n % 3 == 0) {
+//             return console.log(`${n} Not a Prime Number`)
+//         } else {
+//             return console.log(`${n} Is a Prime Number`)
 
+//         }
+//     }
+
+
+// }
+// let myfun = ()=>{
+    
+// }
+
+
+// v5
+
+
+function isPrime(number){
+    for(let i=3;i<=Math.sqrt(num);i+=2){
+        if(num%i===0){
+            return "Not prime"
+        }
+        else{
+            return "prime "
         }
     }
-
-
 }
-let myfun = ()=>{
+// .let
+// .l.l.l.l..l..l.l.l.l.l..l.l..l.l.l.l.isP
+// .aray.length(is prime not Infinity
+//     nighe number is prime if it would like to follow in your boys are kakjfafafaaf
+
     
-}
+WritableStreamDefaultController
+
+
+
+
+
 
 
 isPrime(3)
 isPrime(10)
 isPrime(17)
 isPrime(11587)
-isPrime(2136279841)

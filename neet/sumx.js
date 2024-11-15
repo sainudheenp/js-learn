@@ -12,8 +12,9 @@
 // sumx(6)
 
 
-let sum = 0;
-const sumx = (n) => {
+function sumx  (n) {
+    let sum = 0;
+
     for (let i = 0; i <= n; i++) {
         sum += i;
     }
