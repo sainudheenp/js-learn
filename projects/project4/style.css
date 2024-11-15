@@ -18,12 +18,35 @@ body{
     font-family: cursive;
     font-size: 52px;
     text-align: center;
-    display: inline-block;
+
 
 }
 .buttons{
     text-align: center;
     margin-top: 40px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    margin-right: 10px;
+/* padding: 15px 25px; */
+}
 
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    /* color: #fff; */
+    width: 50px;
+
+}
+
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
 }

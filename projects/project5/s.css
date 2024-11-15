@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*xMuIOwjliGUPjkzukeWKfw.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container {
+    width: 350px;
+    padding: 20px 14px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 6px;
+
+}
+
+#add-task {
+    transition: .3s;
+
+    font-size: 1.2rem;
+    padding: 5px;
+    flex: 1;
+    background-color: #fff;
+    color: green;
+    border-radius: 10px;
+    border: green solid 2px;
+
+}
+
+#add-task:hover {
+    background-color: green;
+    color: #fff;
+}
+
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    list-style: none;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.task li {
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.checkTask {
+    color: orange;
+    background-color: red;
+    margin-right: 5px;
+    font-size: 1.4rem;
+}
+
+.checkTask:hover {
+    color: black;
+    background-color: orange;
+}
+
+.deleteTask {
+    color: red;
+    font-size: 1.4rem;
+    border: solid 2px red;
+    font-size: 1.3rem;
+
+}
+
+.deleteTask:hover {
+    background-color: red;
+    color: white;
+}
