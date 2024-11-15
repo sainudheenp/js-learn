@@ -15,8 +15,8 @@ function test(input, output) {
     console.log("input array ;", input[i]);
     // console.log(i, "Output NestedArray ;", output[i]);
     for (let k = 0; k < output[i].length; k++) {
-      console.log(k, "arrValue :", output[i][k],"Func ret:",mul(input[i]));
-      if (mul(input[i]) == output[i][k]) {
+      console.log(k, "arrValue :", output[i][k],"Func ret:",mul(input[i])[k]);
+      if (mul(input[i])[k] == output[i][k]) {
         console.log("Test Passed");
       }
       else{
