@@ -14,6 +14,14 @@ function test(input, output) {
     // input array values
     // console.log("input array ;", input[i]);
     // console.log(i, "Output NestedArray ;", output[i]);
+
+
+    // check using the array
+    // console.log(mul(input[i]),output[i])
+    // mul(input[i])==output[i] ? console.log("Array Test Passed"):console.log("Array Test Failed")
+
+
+    
     for (let k = 0; k < output[i].length; k++) {
     //   console.log(k, "arrValue :", output[i][k],"Func ret:",mul(input[i])[k]);
       if (mul(input[i])[k] == output[i][k]) {
@@ -26,6 +34,7 @@ function test(input, output) {
   }
 }
 
+// .kli.clearpop.l].
 // input3;op
 let input = [2, 4, 5];
 let output = [
