@@ -8,7 +8,6 @@ function IsPalindrome(number) {
         revNum.push(number[i])
         // console.log("numer : ", [i], number[i])
     }
-
     // console.log(revNum)
     // console.log(number)
     let strRev = revNum.join("")
