@@ -1,0 +1,91 @@
+1. Divide two numbers and print the quotient.
+2. write a program to calculate the remainder of two numbers.
+3. write a program to calculate the root of a quadratic equation.
+4. write a program to find the mean of an array of numbers.
+5. write a javascript function that creates a 2x2 matrix and prints it to the console,
+6. write a program to add two 2x2 martices and output the result.
+7. write a program to calculate the area of a rectangle.
+8. How do you round 7.5 to the nearset whole number.
+9. write a program to find the nth term of an arithmetic progression.
+10.write a program to calculate the sum of the first n terms in arithmetic progression.
+11.write a function to check if matrix is a diagonal matrix.
+12.write a program to convert a 2D matrix 1D array.
+13.write a function to check if a given matrix is an identify matrix.
+14.write a program to find the nth term of an geometric progression.
+15.write a program to find the median of an array.
+16.How do you calculate the mode of an array in javascript.
+17.write a javascript program to calculate the surface area of a sphere given its radius.
+18.write a javascript program to calculate the volume of a cyclinder given its radius and height.
+19.write a program to calculate the sum of the first n terms of a geometric progression.
+20.write a function that takes a 3x3 matrix as input and returns its transponse.
+
+21.calculate the volume of a cylinder of given radius and height?
+22.calculate the area of a circle of given radius?
+23.calculate the cube of a number?
+24.write the java script function that approximate the derivative of f(x)=x^2
+25.write the java script function that stimulates a coin toss,the function should be head or tail with equal probability
+26.write the javascript function that approximate the derivative of f(x)=e^x
+27.write java script function that create the return of 2X2 matrix with values [1234]
+28.write the javascript functiom that approximate the derivative of f(x)=cos x
+29.javascript function that stimulates rolling a six sided die, the function should return a random number between 1 and 6
+30.write the java script function that convert Temperature- celcius to fahrenheit
+31.write a javascript function that rounds a number to two decimal places
+32.write a javascript function for finding the absolute value of a given number
+33.calculate the distance between two points on a  2D plane co-ordinates(x1,y1)and (x2,y2)?
+34.write a javascript function that convert a given hours into minutes
+35.write a javascript function that check the given number is a perfect square or not 
+36.write a javascript function that calculate the median of an array of numbers
+37.write a javascript function that convert a string to a number
+38.write a javascript function that calculate the sum of a the first n terms of an arithmetic series where the first term is A and commendifference is d 
+39.write a javascript function to solve the equation 2X+5 =0
+40.write a javascript function to solve the equation 5X-8 =12
+41.write a javascript function to solve the equation -2X+6 =0
+42.write a javascript function to find the area of a triangle
+43.write a function to check the triangle is equilateral
+44.write a function to calculate the length of third side of a right angled triangle using pythagorean theorem
+45.write a function to convert radian to degree
+46.write a function that check the product of two numbers is Even or Odd
+47. Write a JavaScript program to calculate the perimeter of a rectangle given its length and width.
+48. Write a JavaScript program to calculate the volume of a cylinder given its radius and height.
+49. Write a JavaScript program to calculate the area of a circle given its radius.
+50. Write a JavaScript program to calculate the area of a triangle given its base and height.
+51. Write a JavaScript program to generate an array of random numbers and calculate their sum and average.
+52. Write a JavaScript program to calculate the mean of a given array of numbers.
+53. Write a JavaScript program to calculate the median of a given array of numbers.
+54. Write a JavaScript program to calculate the mode of a given array of numbers.
+55. Write a JavaScript program to generate the Fibonacci series up to a specified number of terms.
+56. Write a JavaScript program to determine whether a given number is an Armstrong number.
+57. Write a JavaScript program to convert a decimal number into its binary representation.
+58. Write a JavaScript program to calculate the height of a mountain using a given distance and angle of elevation.
+59. Write a JavaScript program to calculate the surface area of a sphere given its radius.
+60. Write a JavaScript program to check whether a given number is a palindrome.
+61. Write a JavaScript program to calculate the perimeter of a circle given its radius.
+62.write a JavaScript program to calculate the factorial of a given number
+63.write a JavaScript program to solve linear equation (2x + 5 = 15)
+64.write a JavaScript program to calculate the probability, white and black ball
+65.Write a JavaScript program to calculate the distance between two points on a coordinate plane.
+66.Write a JavaScript program to calculate the slope of a line given two points on the line.
+67.  Check whether a matrix is a diagonal matrix or not.
+68.  Given a square matrix of size n * n, calculate the absolute difference between the sums of its diagonals.
+69.  The main-diagonal and the anti-diagonal of a square matrix.
+70.  Write a function to check if a matrix is square.
+71.  Write a javascript function that takes the lenghts of the two legs of a right triangle and returns the lenght of the hypotenuse.
+72.  Write a javascript function that solves a quadratic equation ax^2 + bx + c = 0 and returns the real roots.
+73.  To find all divisors of a given number n.
+74.  To find the greatest common divisor (GCD) of two numbers using Euclid's algorithm.
+75.  A number is a power of two if it can be written as 2^k for some integer k.
+76. Javascript function that computes the least common multiple (LCM) of two numbers.
+77. To calculate the simple interest based on the formula.
+78. To calculate the area of a triangle given its base b and height h.
+79. Write a JavaScript function that solves a linear equation of the form ax + b = 0 for x.
+80. Write a JavaScript function to calculate the probability of an event, given the number of favorable outcomes f and the total possible outcomes t.
+81. To calculate the distance between two points (x1, y1) and (x2, y2) using the distance formula.
+82. Write a function to find the range (difference between the highest and lowest values) of a set of numbers.
+83. Write a function to calculate the sum of cubes of the first n natural numbers.
+84. Write a function that checks whether a given number is prime.
+85. Write a function to check whether a given number is a perfect number.
+86. Write a function that calculates the odds of an event occurring, given the number of favorable outcomes f and total outcomes .
+
+
+
+
