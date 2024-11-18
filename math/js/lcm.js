@@ -1,0 +1,3 @@
+function CLcm(arr){
+    
+}
