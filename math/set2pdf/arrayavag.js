@@ -10,6 +10,12 @@ let avgar = (arr) => {
 let inputarr = [[1, 3, 4, 5, 6], [4, 4, 4, 4], [1, 3, 4, 5, 6]]
 let exop = [3.8, 4, 3.8]
 
-let test = () => { inputarr.forEach((array, i) => { avgar(array) == exop[i] ? console.log("Test Passed") : console.log("Test Failed") }) }
+let test = () => {
+    inputarr.forEach((array, i) => {
+        avgar(array) == exop[i] ?
+            console.log("Test Passed") :
+            console.log("Test Failed")
+    })
+}
 
 test()
