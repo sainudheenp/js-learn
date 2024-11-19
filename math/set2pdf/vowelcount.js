@@ -1,28 +1,29 @@
-// Write a program to count the number of vowels in a string?
-
 function vowelCount(str) {
-  console.clear();
-  let capStr = str.toUpperCase();
-  let vowels = ["A", "E", "I", "O", "U"];
-
-  console.log(capStr);
-  let count = {};
-
-  for (i = 0; i < 5; i++) {
-    // if(vowels[i]==)
-    for (j = 0; j < 5; j++) {
-      if (vowels[i] == capStr[j]) {
-        console.log(vowels[i], "equal");
-        count[vowels] = (count[vowels] || 0) + 1;
-      } else {
-        console.log("not equal");
-      }
+  capStr = str.toUpperCase();
+  let count = 0;
+  vowels = ["A", "E", "I", "O", "U"];
+  for (i = 0; i < capStr.length; i++) {
+    if (vowels.includes(capStr[i])) {
+      count = count + 1;
     }
   }
-  console.log(count);
-
-  //   capStr.forEach((element) => {
-  //     console.log(element);
-  //   });
+//   console.log(count);
+  return count; 
 }
-vowelCount("aerro");
+
+// vowelCount("vonnue");
+
+let inputs = ["hello", "hey", "vonnue"];
+let output = [2, 1, 3];
+
+function test() {
+  inputs.forEach((input, i) => {
+    if (vowelCount(input) == output[i]) {
+      console.log(i, "Test Passed", input);
+    } else {
+      console.log("Test Failed");
+    }
+  });
+}
+
+test();
