@@ -1,15 +1,4 @@
-// // factorial of a number using recursive methode
-// function fact(num) {
-//   let fact = 1;
-//   for (i = 1; i <= num; i++) {
-//     fact =fact * i
-//   }
-//   console.log(fact)
-// }
-// fact(5);
-
-// factorial of a number using recursive methode
-
+// factorial of a number usign Recursive function
 function fact(num) {
   if (num == 0) {
     return 1;
@@ -17,12 +6,25 @@ function fact(num) {
     return num * fact(num - 1);
   }
 }
+// console.log(fact(5));
 
-console.log(fact(10));
+let inop = {
+  test1: [5, 120],
+  test2: [10, 102333],
+  test3: [5, 120],
+};
 
-//num * fact(num-1) 5* fact4)      5*24       120
-//                  4* fact(3)   (4*6)        24
-//                  3* fact(2)   (3*2)  return 6
-//                  2* fact(1)   (2*1) return 2
-//                  1* fact(0)  (1*1) return 1
-//                   retrun 1
+let test = () => {
+  //   fact(inop[0][0]);
+
+  for (let key in inop) {
+    // console.log(key);
+    // console.log(inop[key]);
+    if (fact(inop[key][0]) == inop[key][1]) {
+      console.log("Test passed");
+    } else {
+      console.log("Test Failed");
+    }
+  }
+}; 
+test();
