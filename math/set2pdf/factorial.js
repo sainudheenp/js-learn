@@ -26,5 +26,5 @@ let test = () => {
       console.log("Test Failed");
     }
   }
-}; 
+};
 test();
