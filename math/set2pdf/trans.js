@@ -19,7 +19,7 @@ let test = (inputs, outputs) => {
         // console.log("ret", transpose(arr))
         // console.log("exp", outputs[i])
 
-        if (transpose(arr) == outputs[i]) {
+        if (JSON.stringify(transpose(arr)) == JSON.stringify(outputs[i])) {
             console.log("Test Passed")
         }
         else {
