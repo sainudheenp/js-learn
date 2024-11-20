@@ -7,7 +7,6 @@ function fact(num) {
   }
 }
 // console.log(fact(5));
-
 let inop = {
   test1: [5, 120],
   test2: [10, 102333],

@@ -2,8 +2,8 @@ function transpose(arr) {
     arr.forEach((iarray, i) => {
         iarray.forEach((item, j) => {
             transMatrix[j][i] = item
-        })
-    })
+        })  
+    })   
     return transMatrix
 }
 let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
