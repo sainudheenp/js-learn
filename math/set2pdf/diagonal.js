@@ -1,22 +1,31 @@
-function isDiagonal(array) {
-    for (i = 0; i < array.length; i++) {
-        for (j = 0; j < array[i].length; j++) {
-            if (array[i][j] == 0){
-                console.log("Diagonal")
-            }
-        }
-    }
+// function isDiagonal(array) {
+//     for (i = 0; i < array.length; i++) {
+//         for (j = 0; j < array[i].length; j++) {
+//             if (i !== j && array[i][j] !== 0) {
+//                 return false
+//             }
 
-}
-
-
-
-
-let array = [
-    [1, 0, 0],
-    [0, 2, 0],
-    [0, 0, 3]
-]
+//         }
+//     }
+//     return true
+// }
 
 
-isDiagonal(array)  
+
+
+
+
+// let array = [
+//     [1, 0, 0],
+//     [0, 2, 0],
+//     [0, 0, 3]
+// ]
+
+
+// console.log(isDiagonal(array))
+
+
+
+
+
+
