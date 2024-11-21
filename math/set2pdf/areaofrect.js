@@ -1,4 +1,3 @@
-
 let areaRect = (l, b) => l * b
 
 
