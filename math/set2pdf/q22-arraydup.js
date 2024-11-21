@@ -8,7 +8,8 @@ function arraydup(arr) {
             // console.log("element",element,"second:",arr[j])
             if (element == arr[j + i]) {
                 // console.log("dup Found");
-                arr.splice(j + i, 1)
+                arr.splice(j + i, 1);
+                arraydup(arr)
             }
         }
 
@@ -17,5 +18,23 @@ function arraydup(arr) {
     return arr
 }
 
-arraydup(arr)
-.
+
+
+// console.log(arraydup([1, 1, 1,9]))
+
+
+let inputs = [[1, 2, 4], [1, 2, 1], [1, 1, 1]]
+let outputs = [[1, 2, 4], [1, 2], [1]]
+function test() {
+    inputs.forEach((input, i) => {
+        if (JSON.stringify(arraydup(input)) == JSON.stringify(outputs[i])) {
+            console.log("Test Passed 🎉🎉🎉")
+        }
+        else {
+            console.log("Test Failed")
+        }
+    })
+}
+
+
+test(inputs, outputs)
