@@ -24,8 +24,3 @@
 
 // console.log(isDiagonal(array))
 
-
-
-
-
-
