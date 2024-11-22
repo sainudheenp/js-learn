@@ -12,29 +12,44 @@
 let arr = [1, 3, 4, 5, 1, 2, 6, 2, 1];
 // mostrep(arr)
 
-//using 
- 
+//using
 
 function most(arr) {
-    let obj = {};
+  let obj = {};
 
-    for (let i = 0; i < arr.length; i++) {
-        obj[arr[i]] = (obj[arr[i]] || 0) + 1;
+  for (let i = 0; i < arr.length; i++) {
+    obj[arr[i]] = (obj[arr[i]] || 0) + 1;
+  }
+
+  let rptditem = null;
+  let maxval = 0;
+  for (let key in obj) {
+    if (obj[key] > maxval) {
+      maxval = obj[key];
+      rptditem = key;
     }
+  }
 
-    let rptditem = null;
-    let maxval = 0;
-
-    for (let key in obj) {
-        if (obj[key] > maxval) {
-            maxval = obj[key];
-            rptditem = key;
-        }
-    }
-
-    console.log("Most repeated item:", rptditem);
-    return rptditem
+//   console.log("Most repeated item:", rptditem);
+  return rptditem;
 }
 
-most(arr);
+// most(arr);
 
+function test() {
+  let inputs = [
+    [1, 3, 4, 5, 1, 2, 6, 2, 1],
+    [3, 3, 3, 1],
+    [9, 9, 9],
+  ];
+  let outputs = [1, 3, 9];
+
+  inputs.forEach((inupt, i) => {
+    if (most(inupt) == outputs[i]) {
+      console.log("test Passed");
+    } else {
+      console.log("Test Failed");
+    }
+  });
+}
+test();
