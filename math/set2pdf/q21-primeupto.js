@@ -22,7 +22,7 @@ Prime Number
 
 // }
 
-// console.log(IsPrime())
+// console.log(IsPrime(4))
 
 
 
@@ -36,35 +36,40 @@ function ISPrime(n) {
     }
     return true
 }
-function upto(n) {
-    let primarr = []
-    for (j = 0; j <= n; j++) {
-        console.log()
-        if (ISPrime(j)) primarr.push(j)
-    }
-    console.log(...primarr)
-    return primarr
-}
-console.log(upto(16));
+
+console.log(IsPrime(4))
+
+
+
+// function upto(n) {
+//     let primarr = []
+//     for (j = 0; j <= n; j++) {
+//         console.log()
+//         if (ISPrime(j)) primarr.push(j)
+//     }
+//     console.log(...primarr)
+//     return primarr
+// }
+// console.log(upto(16));
 
 
 
 
-function testt() {
-    let inputs = [3, 9, 16];
-    let outputs = [[2, 3], [2, 3, 5, 7], [2, 3, 5, 7, 11, 13]]
+// function testt() {
+//     let inputs = [3, 9, 16];
+//     let outputs = [[2, 3], [2, 3, 5, 7], [2, 3, 5, 7, 11, 13]]
 
-    inputs.forEach((lmt, i) => {
-        console.log("exop", JSON.stringify(upto(lmt)), JSON.stringify(outputs[i]))
-        if (JSON.stringify(upto(lmt)) == JSON.stringify(outputs[i])) {
-            console.log("test Passed")
-        } else {
-            console.log("Test Failed")
-        }
-    })
-}
+//     inputs.forEach((lmt, i) => {
+//         console.log("exop", JSON.stringify(upto(lmt)), JSON.stringify(outputs[i]))
+//         if (JSON.stringify(upto(lmt)) == JSON.stringify(outputs[i])) {
+//             console.log("test Passed")
+//         } else {
+//             console.log("Test Failed")
+//         }
+//     })
+// }
 
-testt()
+// testt()
 
 
 

@@ -13,6 +13,9 @@ function isPrime(num) {
     }
 }
 
+
+
+
 function test(testvals, resvals) {
     testvals.forEach((value, idx) => {
         isPrime(value) == resvals[idx] ? console.log(`Test Case ${idx + 1} Passed`) : console.log(`Test Case ${idx + 1}Failed`)

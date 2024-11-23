@@ -9,7 +9,6 @@ function IsAmstrong(number) {
     }
     caretVal == number ? console.log("Amstrong Number") : console.log("Not an Amstrong Number")
 }
-
 IsAmstrong(153)
 IsAmstrong(13)
 IsAmstrong(9)
