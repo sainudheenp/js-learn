@@ -2,15 +2,23 @@
 
 
 function iDmatrix(mtrx) {
-    console.log(mtrx)
     for (i = 0; i < mtrx.length; i++) {
         for (j = 0; j < mtrx[i].length; j++) {
-            console.log(mtrx[i][j]);
-            // if((j==i)==true)
+            // console.log(i, j, mtrx[i][j]);
+            if (j !== i) {
+                if (mtrx[i][j] != 0) {
+                    return false
+                }
+            }
+            if (i == j) {
+                if (mtrx[i][j] !== 1) {
+                    return false
+                }
+            }
         }
     }
+    return true
 }
-
 let mtrx = [
     [1, 0, 0],
     [0, 1, 0],
@@ -18,4 +26,39 @@ let mtrx = [
 
 ]
 
-iDmatrix(mtrx)
+// console.log(iDmatrix(mtrx))
+
+
+function test() {
+    let inputs = [[
+        [1, 0, 0],
+        [0, 1, 0],
+        [0, 0, 1],
+
+    ], [
+        [1, 0, 0],
+        [0, 1, 0],
+        [1, 0, 1],
+
+    ], [
+        [1, 0, 0],
+        [0, 2, 0],
+        [0, 0, 1],
+
+    ]]
+    let outputs = [true, false, false]
+
+    inputs.forEach((input, i) => {
+        if (iDmatrix(input) == outputs[i]) {
+            console.log("Test Passed")
+        }
+        else {
+            console.log("Test Failed")
+        }
+    })
+
+
+}
+
+
+test()
