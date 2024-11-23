@@ -1,3 +1,0 @@
-function ToPrime(num){
-
-}
