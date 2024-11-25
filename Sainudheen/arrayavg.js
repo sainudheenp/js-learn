@@ -20,10 +20,6 @@ function arrayavg(arr) {
     return (sum/arr.length)
 }
 
-// kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-
-// JSON.j
-// .l.jlj.JSON.k.kk..k.k.k..k..k.k.k.k.k.k.k.k.k.k.k.k.k.k...
 function test(input, exsum) {
     input.forEach((item, index) => {
         arrayavg(item) === exsum[index] ? console.log("Test Passed") : console.log("Test Failed")

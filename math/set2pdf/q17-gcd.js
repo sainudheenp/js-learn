@@ -5,6 +5,9 @@ function gcd(a, b) {
     return gcd(b, a % b)
 }
 console.log(gcd(60, 21))
+
+
+
 function test() {
     let inputs = [[56, 98], [22, 99], [77, 99]];
     let outputs = [14, 11, 11]

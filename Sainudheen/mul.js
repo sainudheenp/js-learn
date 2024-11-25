@@ -1,11 +1,20 @@
+// 6. Calculate the multiplication table of a given number.
+
+
+
 function mul(n) {
   let mularray;
   mularray = [];
   for (let i = 1; i <= 10; i++) {
     mularray.push(i * n);
+  console.log(`${i} * ${n} =${ i*n}`)
+
   }
   return mularray;
 }
+
+console.log(mul(10))
+
 
 function test(input, output) {
   console.clear();
@@ -43,4 +52,4 @@ let output = [
   [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
 ];
 
-test(input, output);
+// test(input, output);

@@ -125,9 +125,6 @@ function isPrime(number){
     }
 }
 // .let
-// .l.l.l.l..l..l.l.l.l.l..l.l..l.l.l.l.isP
-// .aray.length(is prime not Infinity
-//     nighe number is prime if it would like to follow in your boys are kakjfafafaaf
 
     
 WritableStreamDefaultController
