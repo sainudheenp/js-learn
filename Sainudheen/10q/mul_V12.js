@@ -3,6 +3,7 @@
 
 
 function mul(n) {
+  if(typeof n !== "number") return null
   let mularray;
   mularray = [];
   for (let i = 1; i <= 10; i++) {
@@ -13,13 +14,13 @@ function mul(n) {
   return mularray;
 }
 
-console.log(mul(10))
+console.log(mul(10)) 
 
-
-function test(input, output) {
+function test(input, output) {  
   console.clear();
 
   for (i = 0; i < input.length; i++) {
+    
     // input array values
     // console.log("input array ;", input[i]);
     // console.log(i, "Output NestedArray ;", output[i]);

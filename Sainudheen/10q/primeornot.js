@@ -124,10 +124,6 @@ function isPrime(number){
         }
     }
 }
-// .let
-
-    
-WritableStreamDefaultController
 
 
 

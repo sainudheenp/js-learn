@@ -10,11 +10,12 @@ const rem = (a, b) => a % b;
 // function rem(a,b){return a%b}
 
 
-let input = [[1, 2], [13, 5], [20, 50]]
+let input = [[1, 2], [13, "l"], [20, 50]]
 let wxop = [1, 3, 20]
 function test() {
 
     input.forEach(([a, b], i) => {
+        if (typeof a !== "number" || typeof b !== "number") return console.log("Give Numbers")
         let retvalue = rem(a, b);
         if (retvalue == wxop[i]) {
             console.log(i, "Test Passed")

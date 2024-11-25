@@ -20,13 +20,18 @@
 //     }
 //     console.log(max)
 // }
-// maxVal([2, 4, 12, 3, 5, 1, 9])
+// maxVal([2, 4, 12, 3, 5, 1, 9]) 
+
+
 
 
 function maxVal(arr) {
     let max = 0;
+    if (!arr.every(item => typeof item === 'number')) return null
+
     for (i = 1; i <= arr.length; i++) {
         if (arr[i] > max) {
+
             max = arr[i]
         }
         else {
@@ -38,10 +43,10 @@ function maxVal(arr) {
 
 function test(input, exsum) {
     input.forEach((inp, idx) => {
-      return  maxVal(inp) == exsum[idx] ? console.log("Test Passed") : console.log("Test Failed")
+        return maxVal(inp) == exsum[idx] ? console.log("Test Passed") : maxVal(inp) === null ? console.log("Skipped : Invalid Input") : console.log("Test Failed")
     });
-
 }
-let input = [[1, 2, 3, 4],[2, 4, 5, 6],[6, 5, 7, 8]]
+let input = [[1, 2, 3, 4], [2, "4", 5, 6], [6, 5, 7, 8]]
 let exsum = [4, 6, 8]
 test(input, exsum)
+

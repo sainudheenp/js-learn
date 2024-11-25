@@ -14,10 +14,6 @@ function pal(strs) {
 
 
 }
-// pal("phey y ehp")
-// pal(121211)
-// pal("hey zain niaz yeh")
-
 
 function test() {
     let inputs = ["h ey ", "e y e", "pp oo pp", "we are "]
