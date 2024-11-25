@@ -1,17 +1,20 @@
 let areaRect = (l, b) => l * b;
 
+
 let inputs = [
   [2, 3],
   [5, 7],
-  [6, 8],
+  [6, "8"],
 ];
 let outputs = [6, 35, 48];
-
+fffffffffffffffffffffffffffffffffffffdsfdsfdfdsfdfdfdfdfffffsffsfffsfsfsdfdfdfdsfffsdfsdfdfsdfsdfsdfafafasdfsfsfsfsfsdfdsfsdfsdfsfsafadfsdffsfsdafsfdsfdsadafdfdsfdsfdsffsdfsdfdsfdsfsdfsdfdsfsdfsdfdfafafsdfsfsfsfsdffdsfsdfdsfdsfdsffasdfdsfsffsdffsdfdsafdfsdfsdfdsfdsfsfadfafdsfdsfasdfsfsfasdfsafdaafaffsdfsdfsdfsdfsfsfsdafdsafdafaffdsfdsfsd
 function test(inputs, outputs) {
   inputs.forEach(([a, b], i) => {
+    if (typeof b !== "number" || typeof a !== "number") return console.log("Invalid input")
     if (!isNaN(a, b) && areaRect(a, b) == outputs[i]) {
       console.log("Test Passed");
-    } else {
+    }
+    else {
       console.log("Test Failed");
     }
   });
