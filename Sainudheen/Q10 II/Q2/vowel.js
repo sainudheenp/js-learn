@@ -14,7 +14,6 @@ function CheckVC(alphabet) {
         return false
     }
 }
-
 // CheckVC("a")
 const test = () => {
     let values = ["a", "b", "c", "d", "kk", 6];
