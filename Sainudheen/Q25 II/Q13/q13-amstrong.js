@@ -1,4 +1,5 @@
 function IsAmstrong(number) {
+    if (typeof number !== "number") return null
     let numstr = String(number)
     let checknum = 0;
     // console.log(numstr)
@@ -25,11 +26,15 @@ var test = () => {
         test2: [1202, false],
         test3: [1634, true]
     }
-    for (let keys in obj) { 
+    for (let keys in obj) {
         // console.log(obj[keys])
-        if (IsAmstrong(obj[keys][0]) == obj[keys][1]) {
+        let retvalue = IsAmstrong(obj[keys][0])
+        if (retvalue == obj[keys][1]) {
             console.log("Test Passed")
-        } else {
+        } else if (retvalue == null) {
+            console.log("Test Skipped")
+        }
+        else {
             console.log("Test Failed")
         }
     }

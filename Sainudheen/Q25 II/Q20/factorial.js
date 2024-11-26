@@ -1,5 +1,7 @@
 // factorial of a number usign Recursive function
 function fact(num) {
+  if (typeof num !== "number") return null
+
   if (num == 0) {
     return 1;
   } else {
@@ -21,7 +23,12 @@ let test = () => {
     // console.log(inop[key]);
     if (fact(inop[key][0]) == inop[key][1]) {
       console.log("Test passed");
-    } else {
+    }
+    else if (fact(inop[key][0]) == null) {
+      console.log("Test Skipped")
+    }
+
+    else {
       console.log("Test Failed");
     }
   }

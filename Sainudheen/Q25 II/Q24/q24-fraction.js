@@ -8,7 +8,3 @@ function fr(numerator, denominator) {
 }
 
 console.log(fr(8, 12))
-
-// function test() {
-    
-// }

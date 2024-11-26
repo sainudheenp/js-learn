@@ -1,6 +1,5 @@
 let areaRect = (l, b) => l * b;
 
-
 let inputs = [
   [2, 3],
   [5, 7],

@@ -38,7 +38,7 @@ function test(input1, input2, output) {
 
         if (JSON.stringify(retarray) == JSON.stringify(outer)) {
             console.log("Tested Passed")
-        } else if (retarray === null) {
+        } else if (retarray===null) {
             console.log("Test Skipped")
         }
 

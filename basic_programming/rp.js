@@ -1,0 +1,5 @@
+function numchange(n, r) {
+    
+    
+
+}

@@ -1,4 +1,5 @@
 function gcd(a, b) {
+    if (typeof a !== "number" || typeof b !== "number") return null
     if (b === 0) {
         return a;
     }
@@ -15,11 +16,13 @@ function test() {
     inputs.forEach(([a, b], i) => {
         if (gcd(a, b) == outputs[i]) {
             console.log("Test Passed")
+        } else if (gcd(a, b) == null) {
+            console.log("Test Skipped")
         }
         else { console.log("Test Failed") }
     })
 }
-test() 
+test()
 
 // let gcd = (a, b) => {
 //     // if (b === 0) return a;
@@ -48,9 +51,9 @@ let R = (a) => {
     // }
 
     // using  rec
-    console.log("a:",a)
-     a = a - 1
-    if(a<0) return ;
+    console.log("a:", a)
+    a = a - 1
+    if (a < 0) return;
     else R(a)
 
 }

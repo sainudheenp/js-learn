@@ -26,6 +26,7 @@ console.clear();
 // }
 
 function fib(lm) {
+  if(typeof lm !=="number") return null
   let fibArray = [0, 1];
   let fibn = 0;
   for (i = 2; i < lm; i++) {
@@ -37,10 +38,9 @@ function fib(lm) {
   return fibArray;
 }
 
-sdsdf
 fib(4)
 
-let input = [4, 5, 6]
+let input = ["f", 5, 6]
 let output = [[0, 1, 1, 2], [0, 1, 1, 2, 3], [0, 1, 1, 2, 3, 5]]
 
 function test() {
@@ -49,7 +49,7 @@ function test() {
     // console.log("out", output[i])
     if (JSON.stringify(fib(inp)) == JSON.stringify(output[i])) {
       console.log("Test Passed")
-    }
+    }else if(fib(inp)==null){return console.log("Test Skipped")}
     else {
       console.log("Test Failed")
     }

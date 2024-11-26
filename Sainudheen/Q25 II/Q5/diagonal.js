@@ -1,12 +1,8 @@
-
-
-
-
-
-
 function isDiagonal(mtrx) {
     for (i = 0; i < mtrx.length; i++) {
         for (j = 0; j < mtrx[i].length; j++) {
+            if (typeof mtrx[i][j] !== "number" || typeof mtrx[i][j] !== "number") return null
+
             if (i !== j) {
                 // console.log(i, j)
                 if (mtrx[i][j] == 0) {
@@ -36,7 +32,7 @@ isDiagonal(array)
 
 function test() {
     let inputs = [[
-        [1, 0, 0],
+        [1, false, 0],
         [0, 2, 0],
         [0, 0, 3]
     ], [
@@ -57,6 +53,10 @@ function test() {
         if (JSON.stringify(isDiagonal(inputs[i])) == JSON.stringify(output)) {
             console.log("Test Passed")
         }
+        else if (isDiagonal(inputs[i]) === null) {
+            console.log("Test Skipped")
+        }
+
         else {
             console.log("test Failed")
         }

@@ -2,6 +2,8 @@
 
 
 function range(arr) {
+    if (!arr.every(item => typeof item === "number")) return null
+
     return Math.max(...arr) - Math.min(...arr)
 }
 
@@ -21,6 +23,9 @@ function test() {
     inop.forEach((obj, i) => {
         if (range(obj.inp) == obj.exp) {
             console.log("Test Passed")
+        }
+        else if (range(obj.inp) == null) {
+            console.log("Test skipped")
         }
         else {
             console.log("Test Failed")

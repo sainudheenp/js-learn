@@ -2,6 +2,7 @@
 
 
 function Isperfect(number) {
+    if (typeof number !== "number") return null
 
     let array = [];
     let sum = 0;
@@ -33,6 +34,9 @@ function test() {
         console.log("ret", Isperfect(input))
         if (Isperfect(input) == output[i]) {
             console.log("Test Passed")
+        }
+        else if (Isperfect(input) == null) {
+            console.log("Test Skipped")
         }
         else {
             console.log("Test Failed")
