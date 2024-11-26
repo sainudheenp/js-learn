@@ -1,0 +1,104 @@
+Here are 100 JavaScript programming questions for you to practice:
+
+1. Write a JavaScript program to print "Hello, World!".
+2. Write a program to check if a number is even or odd.
+3. Write a program to find the factorial of a number.
+4. Write a program to check if a number is prime.
+5. Write a program to find the Fibonacci sequence up to a given number.
+6. Write a program to reverse a string.
+7. Write a program to count the number of vowels in a string.
+8. Write a program to find the largest number in an array.
+9. Write a program to find the smallest number in an array.
+10. Write a program to sort an array of numbers in ascending order.
+11. Write a program to remove duplicates from an array.
+12. Write a program to check if a string is a palindrome.
+13. Write a program to convert a string to an array of words.
+14. Write a program to find the second largest number in an array.
+15. Write a program to sum all the numbers in an array.
+16. Write a program to merge two arrays.
+17. Write a program to create a new array containing only the even numbers from an existing array.
+18. Write a program to create a new array containing only the odd numbers from an existing array.
+19. Write a program to find the index of the first occurrence of a value in an array.
+20. Write a program to find the index of the last occurrence of a value in an array.
+21. Write a program to check if an array contains a specific value.
+22. Write a program to create a new array with elements from a range (e.g., 1 to 10).
+23. Write a program to find the sum of numbers from 1 to N.
+24. Write a program to find the length of a string.
+25. Write a program to check if a number is a perfect square.
+26. Write a program to convert a number to binary.
+27. Write a program to check if a string contains only digits.
+28. Write a program to find the common elements in two arrays.   ////////////////////////////////////////////////////////////
+29. Write a program to calculate the area of a circle.
+30. Write a program to calculate the perimeter of a rectangle.
+31. Write a program to convert temperature from Celsius to Fahrenheit.
+32. Write a program to convert temperature from Fahrenheit to Celsius.
+33. Write a program to create a simple calculator with addition, subtraction, multiplication, and division.
+34. Write a program to find the power of a number.
+35. Write a program to generate a random number between 1 and 100.
+36. Write a program to check if a string starts with a specific substring.
+37. Write a program to check if a string ends with a specific substring.
+38. Write a program to find the number of words in a string.
+39. Write a program to find the maximum number in a nested array.
+40. Write a program to count the number of spaces in a string.
+41. Write a program to concatenate two strings.
+42. Write a program to remove whitespace from both ends of a string.
+43. Write a program to find the most frequent element in an array.
+44. Write a program to sum the digits of a number.
+45. Write a program to convert an object to a JSON string.
+46. Write a program to convert a JSON string to an object.
+47. Write a program to check if a string contains a specific substring.
+48. Write a program to find the longest word in a string.
+49. Write a program to find the first non-repeating character in a string.
+50. Write a program to create a date object for today's date.
+51. Write a program to get the current day of the week.
+52. Write a program to get the current date in the format "YYYY-MM-DD".
+53. Write a program to get the current time in the format "HH:MM:SS".
+54. Write a program to add two dates and get the difference in days.
+55. Write a program to check if a number is divisible by both 3 and 5.
+56. Write a program to sum all numbers from 1 to N using recursion.
+57. Write a program to find the factorial of a number using recursion.
+58. Write a program to generate the first N Fibonacci numbers.
+59. Write a program to find the GCD (Greatest Common Divisor) of two numbers.
+60. Write a program to find the LCM (Least Common Multiple) of two numbers.
+61. Write a program to check if a year is a leap year.
+62. Write a program to remove a specific element from an array.
+63. Write a program to find the square root of a number.
+64. Write a program to find the cube root of a number.
+65. Write a program to get the last element of an array.  //////////////////////////////////////////////////////////////////
+66. Write a program to get the first element of an array.
+67. Write a program to split a string by a given delimiter.     /////////////////////////////////////////////////////////
+68. Write a program to check if an array is sorted.
+69. Write a program to find the sum of the numbers in an array using reduce().
+70. Write a program to find the average of the numbers in an array.
+71. Write a program to convert a string to lowercase.
+72. Write a program to convert a string to uppercase.
+73. Write a program to find the sum of all even numbers from 1 to N.
+74. Write a program to find the sum of all odd numbers from 1 to N.
+75. Write a program to check if a number is a power of 2.
+76. Write a program to calculate the compound interest.
+77. Write a program to check if a number is a multiple of another number.
+78. Write a program to find the prime factors of a number.
+79. Write a program to find the highest common factor (HCF) of two numbers.
+80. Write a program to find the lowest common multiple (LCM) of two numbers.
+81. Write a program to check if a string is an anagram of another string.
+82. Write a program to count the number of occurrences of a substring in a string.
+83. Write a program to find the index of a substring in a string.
+84. Write a program to generate the multiplication table for a number.
+85. Write a program to calculate the simple interest.
+86. Write a program to check if a string contains only alphabetic characters.
+87. Write a program to find the longest common prefix of a list of strings.
+88. Write a program to check if a string is a valid email address.
+89. Write a program to format a number as currency.
+90. Write a program to validate a phone number.
+91. Write a program to find the median of an array.
+92. Write a program to find the mode of an array.
+93. Write a program to generate a random color code in hexadecimal.
+94. Write a program to create a multiplication grid.
+95. Write a program to find the sum of all positive numbers in an array.
+96. Write a program to find the sum of all negative numbers in an array.
+97. Write a program to flatten a nested array.
+98. Write a program to create an object with properties dynamically.
+99. Write a program to check if an object is empty.
+100. Write a program to find all prime numbers less than a given number.
+
+These questions cover a range of basic to intermediate JavaScript concepts. You can start solving them and gradually move to more complex problems.
