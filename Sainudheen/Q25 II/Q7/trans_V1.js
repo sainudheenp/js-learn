@@ -16,9 +16,7 @@ function transpose(arr) {
         }
     }
 }
-
 transpose(array)
 
 console.log(...array)
 console.log(...trans)
-

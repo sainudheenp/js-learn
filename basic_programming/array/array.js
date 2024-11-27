@@ -49,6 +49,8 @@ let numarr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let newMaparr = arr.map((val) => val + " Map");
 console.log(newMaparr);
 
+
+
 // 3. filter()  Creates a new array with elements that satisfy a condition.
 
 let filterarray = arr.filter((item) => {
@@ -60,6 +62,7 @@ console.log(filterarray);
 
 let sum = numarr.reduce((a, b) => a + b, 0);
 console.log(sum);
+
 /*
 numarr.reduce(): Calls the reduce() method on the numarr array.
 (accumulator, current) => { ... }: This is the callback function passed to reduce(). It takes two arguments: accumulator and current.
