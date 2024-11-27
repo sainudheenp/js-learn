@@ -7,8 +7,3 @@ function leapYear(year) {
   }
 }
 leapYear(2024);
-
-// 25
-// 10
-// 50
-isSecureContext("OK");
