@@ -51,3 +51,5 @@ function Player(name, marker) {
 const amal = new Player("amal", "p")
 console.log(amal)
 console.log(amal.name)
+
+console.log(Object.hasOwn(playerOne))
