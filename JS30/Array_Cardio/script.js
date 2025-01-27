@@ -25,11 +25,73 @@ const people = [
 const fifteen = inventors.filter((inventor) => {
     return (inventor.year >= 1500 && inventor.year < 1600)
 })
-console.table(fifteen)
+// console.table(fifteen)
 
 
 // const fullNames = inventors.map((inventor)`${inventor.first} ${inventors.last}`)
 
 const fullNames = inventors.map((inventor) => `${inventor.first} ${inventors.last}`)
 
-console.table(fullNames)
+// console.table(fullNames)
+
+// const orderd = inventors.sort(function(a,b){
+// if(a.year>b.year ){
+//     return 1;
+// }else{
+//     return -1
+// }
+// })
+
+const orderd = inventors.sort((a, b) => a.year > b.year ? 1 : -1)
+// console.table(orderd)
+
+
+var totalYears = 0;
+
+for (let i = 0; i < inventors.length; i++) {
+    totalYears = inventors[i].year
+
+}
+// console.log(totalYears)
+totalYears = inventors.reduce((total, inventors) => {
+    return total + (inventors.passed - inventors.year)
+}, 0)
+
+// console.log(totalYears)
+
+const oldest = inventors.sort(function (a, b) {
+    const lastInventor = a.passed - a.year;
+    const nextInventor = b.passed - b.year;
+    return lastInventor > nextInventor ? -1 : 1;
+})
+
+// console.table(oldest)
+
+
+// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// const category = document.querySelector('.mw-category');
+// const links = Array.from(category.querySelectorAll("a"));
+// const de = links.map(link => link.textContent).filter(streetName => streetName.includes('de'))
+
+// // 7
+
+const alpha = people.sort((lastOne, nextOne) => {
+    const [aLast, aFirst] = lastOne.split(', ');
+    const [bLast, bFirst] = nextOne.split(', ');
+    return aLast > bLast ? 1 : -1;
+})
+
+// console.table(alpha)
+
+// const data =['car','car','truck','truck','bike','walk','car','van','bike','walk']
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck', 'pogostick'];
+
+const transportation = data.reduce(function (obj, item) {
+    if (!obj[item]) {
+        obj[item] = 0;
+    }
+    obj[item]++;
+    return obj;
+}, {});
+
+// console.table(transportation)
