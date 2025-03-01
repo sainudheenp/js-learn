@@ -11,8 +11,6 @@ function pal(strs) {
         // console.log("! Palindrome")
         return false
     }
-
-
 }
 
 function test() {
