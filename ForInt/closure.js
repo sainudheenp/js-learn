@@ -1,9 +1,11 @@
 function myFucn(){
     const x =877;
     const y = 88;
-    console.log("Local Scop :",x,y)
+    function innerFunc(){
+        console.log("Outer vars :",x,y)
+    }
+    return innerFunc
 }
-myFucn()
-k=0
+const clsr = myFucn()
+clsr()
 
-function myCounter(){ return k++}
