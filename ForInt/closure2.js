@@ -1,11 +1,13 @@
 var objs =[
-    {name:'One',msg:'Hello I am one'},
-    {name:'two',msg:'Hello I am two'},
-    {name:'three',msg:'Hello I am three'}
+    {name:'One',msg:'Hello '},
+    {name:'two',msg:' I '},
+    {name:'three',msg:'am three'}
 ]
 
 function main(){
 objs.forEach(item=>{
+console.log(item.msg)
 })
 
 }
+main()
