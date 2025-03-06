@@ -79,5 +79,15 @@ console.log(Array.of("foo","fff"))
 
 console.log(Logs.at(0))
 
-// console.log(str[])
+console.clear()
+
+
+const array1 = ["2","3","d","e"]
+
+console.log(array1.copyWithin(0,3))
+
+// console.log(array1.entries())
+
+const every = array1.every(x=>x>=20)
+console.log(every)
 
