@@ -54,7 +54,7 @@ console.log(array)                   // Updated array: ["fill", "Jake"]
 // console.log(array.split(" ").join('/'))
 
 // Create a new empty array using the Array constructor.
-const newArr = new Array(2,4,5)
+const newArr = new Array(2, 4, 5)
 console.log(newArr) // Logs: [] (an  array)
 console.log(newArr)
 // Clear the console. This will remove all previous logs from the console.
@@ -75,19 +75,52 @@ const Logs = Array.from(str)
 console.log(Array.isArray(str))
 console.log(Array.isArray(Array.from(str)))
 
-console.log(Array.of("foo","fff"))
+console.log(Array.of("foo", "fff"))
 
 console.log(Logs.at(0))
 
 console.clear()
 
 
-const array1 = ["2","3","d","e"]
+const array1 = ["2", "3", "d", "e"]
 
-console.log(array1.copyWithin(0,3))
+console.log(array1.copyWithin(0, 3))
 
 // console.log(array1.entries())
 
-const every = array1.every(x=>x>=20)
+const every = array1.every(x => x >= 20)
 console.log(every)
 
+
+// export default class User {
+//     constructor(name) {
+//         this.name = name;
+//     }
+// }
+
+// export function sayHi(user) {
+//     alert(`Hello, ${user}!`)
+// }
+
+
+console.log()
+
+
+const regexObj = /cat/
+console.log(regexObj)
+console.log(regexObj.test("cat"))
+
+
+
+const str1 = "The cat is white"
+const str2 = "Rat eats meat"
+const str3 = "Is it ok?"
+
+var result1 = regexObj.test(str1)
+console.log(result1)
+
+var result2 = regexObj.test(str2)
+console.log(result2)
+
+const result3 = regexObj.test(str3)
+console.log(result3)
