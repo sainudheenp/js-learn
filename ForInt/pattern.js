@@ -55,4 +55,29 @@ function upperPyran(n) {
         console.log(row)                  // Print the constructed row to the console
     }
 }
-upperPyran(3)
+// upperPyran(3)
+
+
+function upperPyrann() {
+    let n = 5;
+    for (i = 0; i <= n; i++) {
+        let str = "* "
+        console.log(str.repeat(i))
+    }
+
+}
+
+// upperPyrann()
+
+console.log("ddd".repeat(4))
+
+function upperA() {
+    let n = 5;
+    for (i = 0; i <= n; i++) {
+        let str = "* "
+        let space = " "
+        console.log(space.repeat((n - i)) + str.repeat(i))
+    }
+}
+
+upperA()
