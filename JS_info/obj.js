@@ -8,11 +8,11 @@ console.log(usera["name"]);
 delete usera["name"];
 console.log(usera);
 
-/ let fruit = "Apple";
-let bag = {
-  [fruit]: 5,
-};
-console.log(bag['fruit'])
+/// let fruit = "Apple";
+// let bag = {
+//   [fruit]: 5,
+// };
+// console.log(bag['fruit'])
 
 let obj = {
     for:"keyword Test",
